@@ -145,8 +145,7 @@ public class covidPlotter
 	}
 	
 	/**
-	 * This function creates the JFrame needed to display the plot pannel
-	 * Also does the  plotter setup
+	 * This function creates the JFrame needed to display the plot panel
 	 */
 	public static void frameSetup(Plot2DPanel plot)
 	{
@@ -161,7 +160,7 @@ public class covidPlotter
 
 	/**
 	 * This function gets the amount of days to show based on the amount of data entries
-	 * @param dataArray This is an arraylist of interger for the use to find out how many entries
+	 * @param dataArray This is an ArrayList of integer for the use to find out how many entries
 	 * @return The total number of entries in the dataArray list
 	 */
 	public static double[] getDays(ArrayList<Integer> dataArray)
@@ -175,7 +174,7 @@ public class covidPlotter
 	}
 	
 	/**
-	 * This function calculates the amount of deaths daily by looking at the day before and subtracing that from today
+	 * This function calculates the amount of deaths daily by looking at the day before and subtracting that from today
 	 * @param data contain the data needed to perform the math
 	 * @return returns a double[] containing the daily deaths
 	 */
